@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="579" Loaded="Window_Loaded">
     <Grid>
+        <!-- Grid dimensions for the window -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.5*" />
             <ColumnDefinition Width="0.5*" />
@@ -21,25 +22,25 @@
             <RowDefinition Height="2*" />
             <RowDefinition Height="0.5*" />
         </Grid.RowDefinitions>
-
-        <Label Content="Shifty Nifty Car Rentals" Grid.Column="2" Grid.Row="0" FontFamily="Magneto" FontWeight="Bold" FontSize="16" HorizontalContentAlignment="Center" Margin="0" />
-
+        <!-- ComboBox Content -->
         <Label Content="Car Type" Grid.Column="0" Grid.Row="0" />
         <ComboBox Name="cbxCarType" Grid.Column="1" Grid.Row="0"/>
-
+        <!-- Dealer Name -->
+        <Label Content="Shifty Nifty Car Rentals" Grid.Column="2" Grid.Row="0" FontFamily="Magneto" FontWeight="Bold" FontSize="16" HorizontalContentAlignment="Center" Margin="0" />
+        <!-- StartDate Content -->
         <Label Content="Start Date" Grid.Column="0" Grid.Row="1" />
         <DatePicker Name="dpStartDate" Grid.Column="1" Grid.Row="1" SelectedDateChanged="dpStartDate_SelectedDateChanged"/>
-
+        <!-- EndDate Content -->
         <Label Content="End Date" Grid.Column="0" Grid.Row="2" />
         <DatePicker Name="dpEndDate" Grid.Column="1" Grid.Row="2" SelectedDateChanged="dpEndDate_SelectedDateChanged" />
 
         <Button Name="btnSearch" Content="Search" Grid.Column="1" Grid.Row="3" Click="btnSearch_Click" />
-
+        <!-- Dealer Logo and Car Image -->
         <Image Name="imgCar" Grid.Column="2" Grid.Row="1" Grid.RowSpan="3" />
-
+        <!-- AvailableCars ListBox -->
         <Label Content="Available Cars" Grid.Column="0" Grid.Row="4" FontWeight="Bold" />
         <ListBox Name="lbxAvailableCars" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" SelectionChanged="lbxAvailableCars_SelectionChanged"/>
-
+        <!-- SelectedCar TextBlock -->
         <Label Content="Selected Car" Grid.Column="2" Grid.Row="4" FontWeight="Bold" />
         <TextBlock Name="tblkSelectedCar" Grid.Column="2" Grid.Row="5" />
 

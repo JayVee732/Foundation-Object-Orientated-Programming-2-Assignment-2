@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:CarRentalApplication"
            StartupUri="MainWindow.xaml">
+    <!-- Default styling for components are here, overwritten on a case-by-case basis -->
     <Application.Resources>
         <Style TargetType="Label">
             <Setter Property="HorizontalContentAlignment" Value="Left"/>
