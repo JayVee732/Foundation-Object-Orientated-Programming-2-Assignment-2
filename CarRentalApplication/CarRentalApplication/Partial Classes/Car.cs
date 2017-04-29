@@ -12,7 +12,7 @@
 
         public string GetCarDetails(string start, string end)
         {
-            return "Booking Confirmation\n\nCar ID: " + CarID + "\nMake: " + Make + "\nModel: " + Model
+            return "Car ID: " + CarID + "\nMake: " + Make + "\nModel: " + Model
                 + "\nRental Date: " + start + "\nReturn Date: " + end;
         }
     }
