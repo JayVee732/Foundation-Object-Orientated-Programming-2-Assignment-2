@@ -149,10 +149,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CarRental_S00162685.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="CarRental_S00162685_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>CarRental_S00162685.mdf</DependentUpon>
     </Content>
     <Resource Include="images\logo.png" />
