@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CarRentalApplication"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="579" Loaded="Window_Loaded">
-    <Grid>
+        Title="Car Rental Application" Icon="images/medium-2.png" Height="500" Width="579" Loaded="Window_Loaded">
+    <!-- Icon used on taskbar -->
+    <Grid Background="Green">
         <!-- Grid dimensions for the window -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.5*" />

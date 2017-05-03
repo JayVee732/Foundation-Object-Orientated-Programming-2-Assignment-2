@@ -2,7 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
-
+    //Partial class used with Car class that was auto-generated with the database
     public partial class Car
     {
         public override string ToString()
